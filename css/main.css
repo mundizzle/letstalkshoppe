@@ -6,8 +6,8 @@
 }
 @font-face {
   font-family: 'HelveticaNeueRegular';
-  src: url("/fonts/helveticaneue-ultralight-webfont.eot");
-  src: url("/fonts/helveticaneue-ultralight-webfont.eot?#iefix") format('embedded-opentype'), url("/fonts/helveticaneue-ultralight-webfont.woff") format('woff'), url("/fonts/helveticaneue-ultralight-webfont.ttf") format('truetype'), url("/fonts/helveticaneue-ultralight-webfont.svg#HelveticaNeueRegular") format('svg');
+  src: url("../fonts/helveticaneue-ultralight-webfont.eot");
+  src: url("../fonts/helveticaneue-ultralight-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/helveticaneue-ultralight-webfont.woff") format('woff'), url("../fonts/helveticaneue-ultralight-webfont.ttf") format('truetype'), url("../fonts/helveticaneue-ultralight-webfont.svg#HelveticaNeueRegular") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -35,7 +35,7 @@
 TALKSHOPPE BASE
 ******************************** */
 body {
-  background: #f1f1f1 url("/images/body_bg.png") repeat-x;
+  background: #f1f1f1 url("../images/body_bg.png") repeat-x;
   font-family: helvetica neue;
   padding-top: 25px;
   color: #575757;
@@ -57,7 +57,7 @@ a.visited,
 }
 hr {
   height: 1px;
-  background: transparent url("/images/hr_bg.png") repeat-x;
+  background: transparent url("../images/hr_bg.png") repeat-x;
   margin: 20px 0;
   border: none;
 }
@@ -93,7 +93,7 @@ header > .wrapper {
 .hero-home {
   width: 940px;
   height: 335px;
-  background-image: url("/images/hero_home.jpg");
+  background-image: url("../images/hero_home.jpg");
 }
 .main {
   clear: both;
@@ -112,10 +112,10 @@ MAIN NAV
 }
 .main-nav {
   text-align: right;
-  background: transparent url("/images/dotted-line.png") repeat-x bottom left;
+  background: transparent url("../images/dotted-line.png") repeat-x bottom left;
 }
 .home .main-nav {
-  background: transparent url("/images/dotted-line-light.png") repeat-x bottom left;
+  background: transparent url("../images/dotted-line-light.png") repeat-x bottom left;
 }
 .home .main-nav-wrapper > ul {
   border-color: #898988;
@@ -208,7 +208,7 @@ FOOTER
 footer {
   margin: 60px 0 0 0;
   padding: 40px 0;
-  background: #898988 url("/images/footer_bg.png") repeat-x;
+  background: #898988 url("../images/footer_bg.png") repeat-x;
 }
 .section a {
   color: #fff;
@@ -257,7 +257,7 @@ h2 {
   margin-top: 10px;
 }
 .sierra {
-  background: url("/images/sierra.png") no-repeat;
+  background: url("../images/sierra.png") no-repeat;
 }
 .quote {
   background-color: #fff;
@@ -318,12 +318,12 @@ h2 {
 .hero-about {
   width: 640px;
   height: 300px;
-  background: url("/images/hero-about.jpg") no-repeat center center;
+  background: url("../images/hero-about.jpg") no-repeat center center;
 }
 .hero-case-studies {
   width: 640px;
   height: 200px;
-  background: #fff url("/images/hero-case-studies.png") no-repeat center center;
+  background: #fff url("../images/hero-case-studies.png") no-repeat center center;
 }
 .about-first-col h2 {
   color: #ec8407;
@@ -350,7 +350,7 @@ h2 {
 .hero-clients {
   border: 1px solid #ccc;
   height: 450px;
-  background: #f1f1f1 url("/images/clients.png") no-repeat center center;
+  background: #f1f1f1 url("../images/clients.png") no-repeat center center;
 }
 .caption {
   background-color: #fff;
@@ -385,7 +385,7 @@ h2 {
 .hero-liana {
   width: 640px;
   height: 272px;
-  background: transparent url("/images/hero_liana.jpg") no-repeat;
+  background: transparent url("../images/hero_liana.jpg") no-repeat;
   -webkit-box-shadow: #999 5px 5px 5px;
   -moz-box-shadow: #999 5px 5px 5px;
   box-shadow: #999 5px 5px 5px;
@@ -393,7 +393,7 @@ h2 {
 .hero-ruth {
   width: 640px;
   height: 272px;
-  background: transparent url("/images/hero_ruth.jpg") no-repeat;
+  background: transparent url("../images/hero_ruth.jpg") no-repeat;
   -webkit-box-shadow: #999 5px 5px 5px;
   -moz-box-shadow: #999 5px 5px 5px;
   box-shadow: #999 5px 5px 5px;
@@ -401,7 +401,7 @@ h2 {
 .hero-jennifer {
   width: 320px;
   height: 238px;
-  background: transparent url("/images/hero_jennifer.jpg") no-repeat;
+  background: transparent url("../images/hero_jennifer.jpg") no-repeat;
   -webkit-box-shadow: #999 5px 5px 5px;
   -moz-box-shadow: #999 5px 5px 5px;
   box-shadow: #999 5px 5px 5px;
@@ -414,7 +414,7 @@ h2 {
 .arrow {
   height: 20px;
   width: 20px;
-  background: transparent url("/images/arrow.png") no-repeat;
+  background: transparent url("../images/arrow.png") no-repeat;
 }
 small.title {
   font-size: 22px;
@@ -449,11 +449,11 @@ small.title {
   margin: 0;
 }
 li a.twitter {
-  background-image: url("/images/twitter.png");
+  background-image: url("../images/twitter.png");
 }
 li a.facebook {
-  background-image: url("/images/facebook.png");
+  background-image: url("../images/facebook.png");
 }
 li a.linkedin {
-  background-image: url("/images/linkedin.png");
+  background-image: url("../images/linkedin.png");
 }
