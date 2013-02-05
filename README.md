@@ -1,4 +1,3 @@
-letstalkshoppe
-==============
+## letstalkshoppe
 
 The Talk Shoppe website
